@@ -1,6 +1,6 @@
 # papermark-next-prisma-vercel-blob-next-auth-resend-email
 
-# 🚀 Papermark is the open-source DocSend alternative with built-in analytics and custom domains. With Next.js, Stripe, NextAuth, Vercel Blob Storage, Resend Email, Analytics, Cookies, Zod, React-pdf, TinyBird 🚀
+# 🚀 Papermark is the open-source DocSend alternative with built-in analytics and custom domains. With Next.js, Stripe, NextAuth, Vercel Blob Storage, Resend Email, Analytics, Cookies, Zod, React-pdf, TinyBird, React Charts 🚀
 
 https://github.com/coding-to-music/papermark-next-prisma-vercel-blob-next-auth-resend-email
 
