@@ -1,8 +1,84 @@
+# papermark-next-prisma-vercel-blob-next-auth-resend-email
+
+# 🚀 Papermark is the open-source DocSend alternative with built-in analytics and custom domains. With Next.js, Stripe, NextAuth, Vercel Blob Storage, Resend Email, Analytics, Cookies, Zod, React-pdf, TinyBird 🚀
+
+https://github.com/coding-to-music/papermark-next-prisma-vercel-blob-next-auth-resend-email
+
+https://papermark-next-prisma-vercel-blob-next-auth-resend-email.vercel.app
+
+From / By https://github.com/mfts/papermark
+
+https://www.papermark.io/
+
+https://dev.to/mfts/build-an-expandable-data-table-with-2-shadcnui-components-4nge
+
+https://github.com/mfts/gauge-demo
+
+https://gauge-demo.vercel.app/
+
+https://vercel.com/design/gauge
+
+<!-- <div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" />
+  <p><em>Chakra Component Library with Next.js</em></p>
+</div> -->
+
+## Node Environment:
+
+```java
+nvm use 18
+```
+
+## Environment variables:
+
+see `.env.example`
+
+```java
+NEXTAUTH_SECRET=my-superstrong-secret
+NEXTAUTH_URL=http://localhost:3000
+
+# These variables are from Vercel Storage Postgres
+POSTGRES_PRISMA_URL=
+POSTGRES_URL_NON_POOLING=
+# This variable is from Vercel Storage Blob
+BLOB_READ_WRITE_TOKEN=
+
+# Google client id and secret for authentication
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+# This variable is from Resend to send emails
+RESEND_API_KEY=
+
+# This variable is from Tinybird to publish and read event data
+TINYBIRD_TOKEN=
+
+# These variables are from Vercel and used for setting up custom domains
+PROJECT_ID_VERCEL=
+TEAM_ID_VERCEL=
+AUTH_BEARER_TOKEN=
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/papermark-next-prisma-vercel-blob-next-auth-resend-email.git
+git push -u origin main
+```
+
 <div align="center">
   <h1 align="center">Papermark</h1>
   <h3>The open-source DocSend alternative.</h3>
 
-  <a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
+<a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
+
 </div>
 
 <div align="center">
@@ -27,10 +103,9 @@ Papermark is an open-source document sharing alternative to DocSend with built-i
 - **Analytics:** Get insights via document tracking and soon page-by-page analytics
 - **Self-hosted, open-source:** Host it yourself and hack on it
 
+## Demo
 
-## Demo 
 ![Papermark Welcome GIF](.github/images/papermark-welcome.gif)
-
 
 ## Tech Stack
 
@@ -43,7 +118,6 @@ Papermark is an open-source document sharing alternative to DocSend with built-i
 - [NextAuth.js](https://next-auth.js.org/) – auth
 - [Resend](https://resend.com) – email
 - [Vercel](https://vercel.com/) – hosting
-
 
 ## Getting Started
 
@@ -78,18 +152,17 @@ cp .env.example .env
 
 ### 4. Configure the variables in `.env`
 
-| Variable | Value |
-|---|---|
-| NEXTAUTH_SECRET | a random string |
-| NEXTAUTH_URL | < Your base domain or localhost:3000 > |
-| POSTGRES_PRISMA_URL  | < Vercel Postgres Pooling URL > |
-| POSTGRES_URL_NON_POOLING | < Vercel Postgres Non-Pooling URL > |
-| BLOB_READ_WRITE_TOKEN | < Vercel Blob Token > |
-| GOOGLE_CLIENT_ID | < Google Client ID > |
-| GOOGLE_CLIENT_SECRET | < Google Client Secret > |
-| RESEND_API_KEY | < Resend API KEY > |
-| NEXT_PUBLIC_BASE_URL | < Your base domain or localhost:3000 > |
-
+| Variable                 | Value                                  |
+| ------------------------ | -------------------------------------- |
+| NEXTAUTH_SECRET          | a random string                        |
+| NEXTAUTH_URL             | < Your base domain or localhost:3000 > |
+| POSTGRES_PRISMA_URL      | < Vercel Postgres Pooling URL >        |
+| POSTGRES_URL_NON_POOLING | < Vercel Postgres Non-Pooling URL >    |
+| BLOB_READ_WRITE_TOKEN    | < Vercel Blob Token >                  |
+| GOOGLE_CLIENT_ID         | < Google Client ID >                   |
+| GOOGLE_CLIENT_SECRET     | < Google Client Secret >               |
+| RESEND_API_KEY           | < Resend API KEY >                     |
+| NEXT_PUBLIC_BASE_URL     | < Your base domain or localhost:3000 > |
 
 ### 5. Initialize the database
 
@@ -107,7 +180,6 @@ npm run dev
 ### 7. Open the app in your browser
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
 
 ## Deploy your own
 
@@ -127,7 +199,6 @@ If you'd like to contribute, please fork the repository and make changes as you'
 <a href="https://github.com/mfts/papermark/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mfts/papermark" />
 </a>
-
 
 ## Inspiration
 
