@@ -34,6 +34,8 @@ nvm use 18
 see `.env.example`
 
 ```java
+# NEXTAUTH_SECRET= # Linux: `openssl rand -hex 32` or go to https://generate-secret.now.sh/32
+
 NEXTAUTH_SECRET=my-superstrong-secret
 NEXTAUTH_URL=http://localhost:3000
 

@@ -6,8 +6,8 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "prisma generate && next dev",
+    "build": "prisma generate && prisma db push && next build",
     "start": "next start",
     "lint": "next lint",
     "deploy": "git add . && git commit -m 'Build' && git push",
