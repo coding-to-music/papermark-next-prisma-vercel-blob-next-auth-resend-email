@@ -11,7 +11,7 @@ export default function Section2() {
             <br />
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-            By sending presentations via Papermark
+            By sending presentations via CompanyName
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

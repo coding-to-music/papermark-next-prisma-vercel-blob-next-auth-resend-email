@@ -32,7 +32,7 @@ const testimonials = [
     },
   },
   {
-    body: "Currently getting a lot of use out of .@mfts0's \"papermark\" project! I'm looking to see how he implemented Resend/React Email into his NextAuth stack.",
+    body: "Currently getting a lot of use out of .@mfts0's \"CompanyName\" project! I'm looking to see how he implemented Resend/React Email into his NextAuth stack.",
     author: {
       name: "Lukas Lunzmann",
       handle: "lucaslunzmann",
@@ -42,7 +42,7 @@ const testimonials = [
     },
   },
   {
-    body: "😍 Papermark just became 10x more valuable with analytics on each page of Pitchdeck. ",
+    body: "😍 CompanyName just became 10x more valuable with analytics on each page of Pitchdeck. ",
     author: {
       name: "Iuliia Shnai",
       handle: "shnai0",
@@ -52,7 +52,7 @@ const testimonials = [
     },
   },
   {
-    body: "Introducing Papermark 1.0 😃 An open-source alternative to DocSend that allows you to securely share documents.",
+    body: "Introducing CompanyName 1.0 😃 An open-source alternative to DocSend that allows you to securely share documents.",
     author: {
       name: "Marc Seitz",
       handle: "mfts0",
@@ -70,7 +70,7 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            1000 people love Papermark, or just use it.
+            1000 people love CompanyName, or just use it.
           </p>
         </div>
         <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">

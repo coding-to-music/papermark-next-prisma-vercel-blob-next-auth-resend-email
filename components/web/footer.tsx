@@ -83,7 +83,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           {/* Text-based Logo */}
           <h1 className="text-2xl font-bold  text-black dark:text-white">
-            Papermark
+            CompanyName
           </h1>
 
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -170,7 +170,7 @@ export default function Footer() {
           </div>
           <div className="mt-4 ">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © 2023 Papermark. All rights reserved.
+              © 2023 CompanyName. All rights reserved.
             </p>
           </div>
         </div>

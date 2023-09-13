@@ -1,11 +1,13 @@
 import { Fragment, useEffect, useState } from "react";
 import { Menu, Dialog, Transition } from "@headlessui/react";
 import { signOut, useSession } from "next-auth/react";
+import { Bars3Icon, ChevronUpIcon } from "@heroicons/react/20/solid";
 import {
-  Bars3Icon,
-  ChevronUpIcon,
-} from "@heroicons/react/20/solid";
-import { FolderIcon, HomeIcon, XMarkIcon, ChartBarIcon  } from "@heroicons/react/24/outline";
+  FolderIcon,
+  HomeIcon,
+  XMarkIcon,
+  ChartBarIcon,
+} from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/router";
@@ -109,7 +111,7 @@ export default function Sidebar() {
                 <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6 ring-1 ring-foreground/10">
                   <div className="flex h-16 shrink-0 items-center">
                     <p className="text-2xl font-bold tracking-tighter text-black dark:text-white">
-                      Papermark
+                      CompanyName
                     </p>
                   </div>
                   <nav className="flex flex-1 flex-col">
@@ -153,7 +155,7 @@ export default function Sidebar() {
         <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6">
           <div className="flex h-16 shrink-0 items-center">
             <p className="text-2xl font-bold tracking-tighter text-black dark:text-white">
-              Papermark
+              CompanyName
             </p>
           </div>
           <nav className="flex flex-1 flex-col">
@@ -307,12 +309,7 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-      {showProBanner ? (
-        <ProBanner
-          setShowProBanner={setShowProBanner}
-        />
-      ) : null}
-      
+      {showProBanner ? <ProBanner setShowProBanner={setShowProBanner} /> : null}
     </>
   );
 }

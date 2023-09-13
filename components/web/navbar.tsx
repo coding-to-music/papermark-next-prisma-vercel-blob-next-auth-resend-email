@@ -18,7 +18,7 @@ export default function Navbar() {
               <div className="flex flex-shrink-0 items-center">
                 <Link href="/">
                   <span className="text-xl font-bold tracking-tighter text-black">
-                    Papermark
+                    CompanyName
                   </span>
                 </Link>
               </div>
@@ -45,4 +45,3 @@ export default function Navbar() {
     </>
   );
 }
-

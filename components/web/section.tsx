@@ -41,7 +41,7 @@ export default function Section() {
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
               <h1 className="mt-5 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Send via Papermark = Share your personality
+                Send via CompanyName = Share your personality
               </h1>
               <ul role="list" className="mt-8 space-y-2 text-gray-600">
                 <li className="flex gap-x-3">
