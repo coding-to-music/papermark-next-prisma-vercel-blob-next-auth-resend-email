@@ -1,7 +1,6 @@
 import Footer from "@/components/web/footer";
 import Navbar from "@/components/web/navbar";
 import Head from "next/head";
-import Image from "next/image";
 
 function BlogPost() {
   return (
@@ -54,7 +53,7 @@ function BlogPost() {
             Except the general tips, I am adding launch tips for Open Source
             projects.
           </p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fejivoe3vst4rsdzjblo.png"
             alt="How to launch on PH"
             className="my-4"
@@ -87,7 +86,7 @@ function BlogPost() {
           <p>
             <strong>One-liners for us:</strong>
           </p>
-          <Image
+          <img
             className="my-4"
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ey010727vbqru86xq0qe.png"
             alt="One liners Papermark"
@@ -98,7 +97,7 @@ function BlogPost() {
           <p>
             Good to have around 3-5 prepared similar messages I could easily use
           </p>
-          <Image
+          <img
             className="my-4"
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g2v8fn5lm6vvpw3584yq.png"
             alt="Draft messages"
@@ -162,12 +161,12 @@ function BlogPost() {
             see small video or GIF straight and decide if it is interesting to
             click.
           </p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vlv3fv3fhcdimqnt7xr.gif"
             alt="Making photos"
           />
           <p>We created quickly a banner in Canva for Twitter and Linkedin</p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uq71oh23os3t9nq1zksy.png"
             alt="Papermakr banner"
           />
@@ -194,7 +193,7 @@ function BlogPost() {
             on social and then continuously <strong>engaging</strong>.
           </p>
           <h3 className="text-xl font-semibold mb-2">1. Launch your tweet</h3>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4ri6ggskhpwzm2xjrmxa.gif"
             alt="Pareto principle"
           />
@@ -207,7 +206,7 @@ function BlogPost() {
             <a href="https://twitter.com/heyeaslo">Easlo</a>. This tip I still
             follow. One core tweet which you share with people.
           </p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzgcnjne6f1gonc4uule.png"
             alt="Launch tweet"
             width="500"
@@ -235,7 +234,7 @@ function BlogPost() {
             launch. You will sometimes feel like a bot in these comments, but I
             feel like everyone deserves a response who wrote to you on PH :)
           </p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k5nwq03arkjx9x5erb2g.gif"
             alt="Bots"
           />
@@ -247,7 +246,7 @@ function BlogPost() {
             4. Send email to your users
           </h3>
           <p>Make it clean with one call to action.</p>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ql9tyzttu2x74ds20ucy.png"
             alt="Email"
           />
@@ -296,7 +295,7 @@ function BlogPost() {
             <li>Add tags that it is Open Source</li>
             <li>Add GitHub link</li>
           </ul>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6g71ch2strxdklrewyll.png"
             alt="Open source project guidance"
           />
@@ -440,11 +439,11 @@ function BlogPost() {
             </li>
             <li>Amount of signups: 300</li>
           </ul>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/os57cafu835hj27v81dc.png"
             alt="Website visitors"
           />
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vx2966hpmjmi17k58rhz.png"
             alt="Sources of visitors"
           />
@@ -457,7 +456,7 @@ function BlogPost() {
             <li>Dev.to: 1k </li>
             <li>LinkedIn: 4k</li>
           </ul>
-          <Image
+          <img
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qorzurj4rfj32f3nbtjl.png"
             alt="Papermark launch"
           />

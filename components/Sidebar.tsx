@@ -2,7 +2,6 @@ import { Fragment, useEffect, useState } from "react";
 import { Menu, Dialog, Transition } from "@headlessui/react";
 import { signOut, useSession } from "next-auth/react";
 import { Bars3Icon, ChevronUpIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 import {
   FolderIcon,
   HomeIcon,
@@ -189,7 +188,7 @@ export default function Sidebar() {
                 <div className="flex justify-between items-center space-x-2">
                   <Menu as="div" className="relative grow">
                     <Menu.Button className="flex items-center group rounded-md gap-x-3 p-2 w-full text-sm font-semibold leading-6 text-foreground hover:bg-gray-200 hover:dark:bg-secondary">
-                      <Image
+                      <img
                         className="h-8 w-8 rounded-full bg-secondary"
                         src={session?.user?.image || ""}
                         alt={`Profile picture of ${session?.user?.name}`}
@@ -264,7 +263,7 @@ export default function Sidebar() {
               <Menu as="div" className="relative">
                 <Menu.Button className="-m-1.5 flex items-center p-1.5">
                   <span className="sr-only">Open user menu</span>
-                  <Image
+                  <img
                     className="h-8 w-8 rounded-full bg-secondary"
                     src={session?.user?.image || ""}
                     alt={`Profile picture of ${session?.user?.name}`}

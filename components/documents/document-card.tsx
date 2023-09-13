@@ -1,27 +1,31 @@
-import { copyToClipboard, getExtension, nFormatter, timeAgo } from "@/lib/utils";
+import {
+  copyToClipboard,
+  getExtension,
+  nFormatter,
+  timeAgo,
+} from "@/lib/utils";
 import Link from "next/link";
 import { DocumentWithLinksAndLinkCountAndViewCount } from "@/lib/types";
 import Copy from "@/components/shared/icons/copy";
 import BarChart from "@/components/shared/icons/bar-chart";
-import Image from "next/image";
 
 export default function DocumentsCard({
   document,
 }: {
   document: DocumentWithLinksAndLinkCountAndViewCount;
 }) {
-
   function handleCopyToClipboard(id: string) {
-    copyToClipboard(`${process.env.NEXT_PUBLIC_BASE_URL}/view/${id}`, "Link copied to clipboard.");
+    copyToClipboard(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/view/${id}`,
+      "Link copied to clipboard."
+    );
   }
-
-  
 
   return (
     <li className="relative rounded-lg p-3 border-0 dark:bg-secondary ring-1 ring-gray-200 dark:ring-gray-700 transition-all hover:ring-gray-400 hover:dark:ring-gray-500 hover:bg-secondary sm:p-4 flex justify-between items-center">
       <div className="min-w-0 flex shrink items-center space-x-4">
         <div className="w-8 mx-1 text-center flex justify-center items-center">
-          <Image
+          <img
             src={`/_icons/${getExtension(document.file)}.svg`}
             alt="File icon"
             width={50}

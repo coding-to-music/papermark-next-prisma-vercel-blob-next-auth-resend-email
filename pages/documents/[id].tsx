@@ -5,7 +5,7 @@ import StatsCard from "@/components/documents/stats-card";
 import StatsChart from "@/components/documents/stats-chart";
 import AppLayout from "@/components/layouts/app";
 import LinkSheet from "@/components/links/link-sheet";
-import Image from "next/image"
+import Image from "next/image";
 import LinksTable from "@/components/links/links-table";
 import VisitorsTable from "@/components/visitors/visitors-table";
 import { useState } from "react";
@@ -30,7 +30,7 @@ export default function DocumentPage() {
               <div className="space-y-2">
                 <div className="flex space-x-4 items-center">
                   <div className="w-8">
-                    <Image
+                    <img
                       src={`/_icons/${getExtension(document.file)}.svg`}
                       alt="File icon"
                       width={50}
@@ -43,7 +43,9 @@ export default function DocumentPage() {
                   </h2>
                 </div>
               </div>
-              <Button onClick={() => setIsLinkSheetOpen(true)}>Create Link</Button>
+              <Button onClick={() => setIsLinkSheetOpen(true)}>
+                Create Link
+              </Button>
             </div>
             {/* Stats */}
             {document.numPages !== null && (

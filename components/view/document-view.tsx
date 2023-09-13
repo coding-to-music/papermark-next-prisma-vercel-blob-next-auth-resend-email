@@ -7,7 +7,6 @@ import { useSession } from "next-auth/react";
 import { usePlausible } from "next-plausible";
 import { toast } from "sonner";
 import { LinkWithDocument } from "@/lib/types";
-import Image from "next/image";
 
 export const DEFAULT_ACCESS_FORM_DATA = {
   email: null,
@@ -157,7 +156,7 @@ export default function DocumentView({
   ) {
     return (
       <div className="h-screen bg-gray-900">
-        <Image className="w-full h-full" alt="Document" src={viewData.file} />
+        <img className="w-full h-full" alt="Document" src={viewData.file} />
       </div>
     );
   }
