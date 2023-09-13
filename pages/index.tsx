@@ -7,6 +7,7 @@ import Section2 from "@/components/web/section2";
 import Testimonials from "@/components/web/testimonials";
 import Logos from "@/components/web/logos";
 import Head from "next/head";
+import Image from "next/image";
 import Section3 from "@/components/web/section3";
 import X from "@/components/shared/icons/x";
 import { useEffect, useState } from "react";
@@ -100,7 +101,7 @@ export default function Home() {
                 target="_blank"
                 href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"
               >
-                <img
+                <Image
                   src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily"
                   alt="CompanyName - The open-source DocSend alternative | Product Hunt"
                   className="w-[250px] h-[54px]"

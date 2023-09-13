@@ -19,7 +19,7 @@ https://gauge-demo.vercel.app/
 https://vercel.com/design/gauge
 
 <!-- <div style="text-align:center;">
-  <img src="/images/chakra.jpg" alt="Image" />
+  <Image src="/images/chakra.jpg" alt="Image" />
   <p><em>Chakra Component Library with Next.js</em></p>
 </div> -->
 
@@ -79,7 +79,7 @@ git push -u origin main
   <h1 align="center">Papermark</h1>
   <h3>The open-source DocSend alternative.</h3>
 
-<a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
+<a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><Image src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
 
 </div>
 
@@ -90,9 +90,9 @@ git push -u origin main
 <br/>
 
 <div align="center">
-  <a href="https://github.com/mfts/papermark/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
-  <a href="https://twitter.com/mfts0"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mfts0"></a>
-  <a href="https://github.com/mfts/papermark/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple"></a>
+  <a href="https://github.com/mfts/papermark/stargazers"><Image alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
+  <a href="https://twitter.com/mfts0"><Image alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mfts0"></a>
+  <a href="https://github.com/mfts/papermark/blob/main/LICENSE"><Image alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple"></a>
 </div>
 
 <br/>
@@ -199,7 +199,7 @@ If you'd like to contribute, please fork the repository and make changes as you'
 ### Our Contributors ✨
 
 <a href="https://github.com/mfts/papermark/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mfts/papermark" />
+  <Image src="https://contrib.rocks/image?repo=mfts/papermark" />
 </a>
 
 ## Inspiration

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Link from "next/link";
 import GitHubIcon from "@/components/shared/icons/github";
 
@@ -31,7 +33,7 @@ export default function Section2() {
           </div>
           {/* Image added below */}
           <div className="mt-10 mx-auto w-full max-w-md">
-            <img
+            <Image
               src="https://www.papermark.io/_static/image2.png"
               alt="Description of Image"
               className="mx-auto w-full h-auto object-cover rounded-md "

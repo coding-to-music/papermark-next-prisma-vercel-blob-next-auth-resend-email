@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Logos() {
   return (
     <div className="bg-white ">
@@ -13,7 +15,7 @@ export default function Logos() {
             "logo4.png",
             "logo5.webp",
           ].map((logo, index) => (
-            <img
+            <Image
               key={index}
               className="w-20 h-20 object-contain lg:w-32 lg:h-32"
               src={`/_static/${logo}`}

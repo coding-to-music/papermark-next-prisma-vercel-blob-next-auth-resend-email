@@ -7,6 +7,7 @@ import { useSession } from "next-auth/react";
 import { usePlausible } from "next-plausible";
 import { toast } from "sonner";
 import { LinkWithDocument } from "@/lib/types";
+import Image from "next/image";
 
 export const DEFAULT_ACCESS_FORM_DATA = {
   email: null,
@@ -23,7 +24,13 @@ export type DEFAULT_DOCUMENT_VIEW_TYPE = {
   file: string;
 };
 
-export default function DocumentView({ link, error }: { link: LinkWithDocument; error: any }) {
+export default function DocumentView({
+  link,
+  error,
+}: {
+  link: LinkWithDocument;
+  error: any;
+}) {
   const { data: session } = useSession();
   const plausible = usePlausible();
 
@@ -150,7 +157,7 @@ export default function DocumentView({ link, error }: { link: LinkWithDocument; 
   ) {
     return (
       <div className="h-screen bg-gray-900">
-        <img className="w-full h-full" src={viewData.file} />
+        <Image className="w-full h-full" alt="Document" src={viewData.file} />
       </div>
     );
   }

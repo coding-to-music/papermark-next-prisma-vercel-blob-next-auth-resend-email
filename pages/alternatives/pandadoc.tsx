@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Footer from "@/components/web/footer";
 import Logos from "@/components/web/logos";
 import { Disclosure } from "@headlessui/react";
@@ -317,7 +318,7 @@ export default function Home() {
               </div>
               <div className="relative overflow-hidden pt-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                  <img
+                  <Image
                     src="https://www.papermark.io/_static/papermark.png"
                     alt="App screenshot"
                     className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
@@ -367,7 +368,7 @@ export default function Home() {
                 <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none flex items-center justify-center">
                   <div className="relative w-64 h-64">
                     {" "}
-                    <img
+                    <Image
                       className="absolute inset-0 object-cover rounded-2xl bg-gray-800  shadow-2xl"
                       src="https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg"
                       alt=""
