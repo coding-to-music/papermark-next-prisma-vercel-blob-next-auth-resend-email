@@ -11,12 +11,12 @@ export default function PrivacyPage() {
           <p>Effective date: 09/04/2023</p>
           <h3>1. Introduction</h3>
           <p>
-            Welcome to <strong>Papermark</strong>.
+            Welcome to <strong>CompanyName</strong>.
           </p>
           <p>
-            Papermark (“us”, “we”, or “our”) operates{" "}
-            <a href="https://papermark.io">https://papermark.io</a>{" "}
-            (hereinafter referred to as “<strong>Service</strong>”).
+            CompanyName (“us”, “we”, or “our”) operates{" "}
+            <a href="https://papermark.io">https://papermark.io</a> (hereinafter
+            referred to as “<strong>Service</strong>”).
           </p>
           <p>
             Our Privacy Policy governs your visit to{" "}
@@ -38,8 +38,8 @@ export default function PrivacyPage() {
           </p>
           <h3>2. Definitions</h3>
           <p>
-            <strong>SERVICE</strong> means the https://papermark.io website
-            operated by Papermark.
+            <strong>SERVICE</strong> means the https://CompanyName.io website
+            operated by CompanyName.
           </p>
           <p>
             <strong>PERSONAL DATA</strong> means data about a living individual
@@ -166,7 +166,7 @@ export default function PrivacyPage() {
             </li>
           </ol>
           <h3>5. Use of Data</h3>
-          <p>Papermark uses the collected data for various purposes:</p>
+          <p>CompanyName uses the collected data for various purposes:</p>
           <ol>
             <li>to provide and maintain our Service;</li>
             <li>to notify you about changes to our Service;</li>
@@ -236,12 +236,12 @@ export default function PrivacyPage() {
             such information represents your agreement to that transfer.
           </p>
           <p>
-            Papermark will take all the steps reasonably necessary to
-            ensure that your data is treated securely and in accordance with
-            this Privacy Policy and no transfer of your Personal Data will take
-            place to an organisation or a country unless there are adequate
-            controls in place including the security of your data and other
-            personal information.
+            CompanyName will take all the steps reasonably necessary to ensure
+            that your data is treated securely and in accordance with this
+            Privacy Policy and no transfer of your Personal Data will take place
+            to an organisation or a country unless there are adequate controls
+            in place including the security of your data and other personal
+            information.
           </p>
           <h3>8. Disclosure of Data</h3>
           <p>
@@ -576,8 +576,8 @@ export default function PrivacyPage() {
           <p>
             Our Service may contain links to other sites that are not operated
             by us. If you click a third party link, you will be directed to that
-            third party&APOS;s site. We strongly advise you to review the Privacy
-            Policy of every site you visit.
+            third party&APOS;s site. We strongly advise you to review the
+            Privacy Policy of every site you visit.
           </p>
           <p>
             We have no control over and assume no responsibility for the

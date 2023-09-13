@@ -7,12 +7,15 @@ export default function Document() {
         <meta name="theme-color" content="#000000" />
         <meta
           name="description"
-          content="Papermark is an open-source document sharing alternative to DocSend with built-in analytics."
+          content="CompanyName is an open-source document sharing alternative to DocSend with built-in analytics."
         />
-        <meta property="og:title" content="Papermark | The Open Source DocSend Alternative" />
+        <meta
+          property="og:title"
+          content="CompanyName | The Open Source DocSend Alternative"
+        />
         <meta
           property="og:description"
-          content="Papermark is an open-source document sharing alternative to DocSend with built-in analytics."
+          content="CompanyName is an open-source document sharing alternative to DocSend with built-in analytics."
         />
         <meta
           property="og:image"
@@ -22,10 +25,10 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@mfts0" />
         <meta name="twitter:creator" content="@mfts0" />
-        <meta name="twitter:title" content="Papermark" />
+        <meta name="twitter:title" content="CompanyName" />
         <meta
           name="twitter:description"
-          content="Papermark is an open-source document sharing alternative to DocSend with built-in analytics."
+          content="CompanyName is an open-source document sharing alternative to DocSend with built-in analytics."
         />
         <meta
           name="twitter:image"
