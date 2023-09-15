@@ -23,6 +23,18 @@ https://vercel.com/design/gauge
   <p><em>Chakra Component Library with Next.js</em></p>
 </div> -->
 
+### Tasks:
+
+- GitHub auth
+- Google auth
+- Tinybird
+- Resend emails
+- Vercel Blob (on waitlist)
+- Use Cloudflare R2 or AWS S3 blob
+- PDF Viewer
+- Light/Dark mode
+- Verify database table operations
+
 ## Node Environment:
 
 ```java
