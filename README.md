@@ -34,6 +34,7 @@ https://vercel.com/design/gauge
 - PDF Viewer
 - Light/Dark mode
 - Verify database table operations
+-
 
 ## Node Environment:
 
